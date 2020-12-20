@@ -35,6 +35,7 @@ n = math.ceil(n)
 f = 2
 X = X[:n,:f]
 
+#Convert edgelist to networkx
 G = nx.DiGraph()
 G.add_edges_from(X)
 print(nx.info(G))
@@ -44,7 +45,7 @@ groups = classes.groupby(["Time step"])
 selected_nodes = groups.get_group(1)
 
 classes.dtypes
-
+#Plot groups of illicit transactions in each timestep
 ilicit_ids = classes.loc[(classes['Time step'] == 2)  & (classes['class'] == 1) , 'txId']
 ilicit_edges = edges.loc[edges['txId1'].isin(ilicit_ids) ]
 print("ilicit_edges ",ilicit_edges.shape)
@@ -64,7 +65,7 @@ plt.show()
 nodes = G.number_of_nodes()
 deg = sum(d for n, d in G.degree()) / float(nodes)
 print("Average Degree: ", deg)
-
+#plot Degree vs Number of Nodes
 def plot_def_dist(G):
   all_degress = [v for k, v in G.degree()]
   # print(all_degress)
