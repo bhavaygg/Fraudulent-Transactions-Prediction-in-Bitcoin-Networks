@@ -7,4 +7,6 @@ We are using the Elliptic Data Set (https://www.kaggle.com/ellipticco/elliptic-d
 
 We use ML models such as SVM and Random Forest. Oversampling techiques such as SMOTE, ctCAN and GMM were used to address the class imbalance problem in the dataset. Also, we generated node embeddings using DeepWalk and trained ML models on them.
 
-[a link](https://github.com/Chokerino/Fradulent-Transactions-Prediction-in-Bitcoin-Networks/blob/master/paper_final.pdf)
+Team Members - [Bhavay Aggarwal](https://github.com/Chokerino), [Saad Ahmad](https://github.com/DaasDaham), [Prasham Narayan](https://github.com/Prasham2302)
+
+[Paper we wrote as part of final evaluation](https://github.com/Chokerino/Fradulent-Transactions-Prediction-in-Bitcoin-Networks/blob/master/paper_final.pdf)
