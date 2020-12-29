@@ -1,4 +1,4 @@
-# Fradulent-Transactions-Prediction-in-Bitcoin-Networks
+# Fraudulent-Transactions-Prediction-in-Bitcoin-Networks
 
 This project was done as a part of Machine Learning Course
 --------------------------------------------------------------
